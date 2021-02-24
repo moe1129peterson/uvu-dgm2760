@@ -15,17 +15,17 @@ header {
 
 header h1 {
     color: #fff;
-    margin: 10px;
-    text-align: left;
-    text-shadow: 2px 2px rgb(48, 48, 48);
+    margin: 20px;
+    text-align: center;
+    text-shadow: 8px 8px rgb(48, 48, 48);
     font-size: 50px;
 }
 
 header h2 {
     color: #fff;
     margin: 10px;
-    text-align: left;
-    text-shadow: 2px 2px rgb(48, 48, 48);
+    text-align: center;
+    text-shadow: 4px 4px rgb(48, 48, 48);
     font-size: 30px;
 }
 
