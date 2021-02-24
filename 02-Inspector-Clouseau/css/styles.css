@@ -1,0 +1,67 @@
+body h1,h2,h3,h4,h6,ul,li {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1376px;
+    min-width: auto;
+    height: 150px;
+    background-image: url(/02-Inspector-Clouseau/images/header.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+header h1 {
+    color: #fff;
+    margin: 10px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    font-size: 50px;
+}
+
+header h2 {
+    color: #fff;
+    margin: 10px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    font-size: 30px;
+}
+
+body {
+   
+}
+
+main {
+   /*margin: 10px 50px 20px;*/
+   margin: auto;
+   width: 72%;
+   padding: 10px;
+    
+}
+
+main h2 {
+    color: #48341d;
+    font-size: 30px;
+}
+
+main h3 {
+    color: #48341d;
+}
+
+li {
+    list-style-type: disc;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    height: 30px;
+    width: 1376px;
+    border-style: none;
+    background-color: #765e39;
+}
