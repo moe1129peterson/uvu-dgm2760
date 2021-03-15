@@ -1,40 +1,68 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>02 Detective Clouseau</title>
-    <link href="/02-Inspector-Clouseau/css/styles.css" rel="stylesheet" type="text/css">
-</head>
-    <body onresize="reDisplay()">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>03 High Low Guessing Game</title>
+        <link href="/Unit03-High-Low-Guessing-Game/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
         <header>
             <h1></h1>
             <h2></h2>
         </header>
 
+        <br>
+
         <main>
-            <h1>Inspector Clouseau</h1>
-            <br>
             <h2>What I learned</h2>
             <br>
-            <ul class="objectives">
-                <li>Display Window Properties</li>
-                <li>Display Document Properties</li>
+            <ul>
+                <li>Implement functions</li>
+                <li>Implement a multi level if-then-else</li>
+                <li>Use innerText to provide user feedback</li>
+                <li>Implement a switch statement</li>
+                <li>Dynamically load a graphic</li>
+                <li>Create and append an image element</li>
             </ul>
-            <br>
-            <h2>Window Properties</h2>
-            <p id="myWindow"></p>
-            <p id="location"></p>
-            <br>
-            <h2>Document Properties</h2>
-            <p id="myDocument"></p>
-            <p id="updated"></p>
-        </main>
 
-        <footer id="footer">
+            <br>
+
+            <h2>Instructions</h2>
+            <p>In this game you try to guess a random number between 0 and 16 in as few tries as possible. You will be awarded a ribbon for your skills. 
+                If you would like to play again, refresh the page</p>
+                
+        </main>
+        
+        <div class="section">
+            <div class="element-left">
+                <h2>Play</h2><div>
+                    <br>
+                    <input id="guess" type="number" placeholder="number"/>
+                    <button onclick="evalGuess()">Guess</button></div>
+                </div>
+            <div class="element-middle1">
+                <h2>Trys</h2>
+                <br>
+                <div id="attempts"></div>
+            </div>
+            <div class="element-middle2">
+                <h2>Feedback</h2>
+                <br>
+                <div id="feedback"></div>
+            </div>
+            <div class="element-right">
+                <h2>Award</h2>
+                <br>
+                <div id="ribbon"></div>
+            </div>
+        </div>
+
+        <footer>
             <p>Assignment for DGM 2760 by Moe Peterson</p>
         </footer>
-        
+
     </body>
-    <script type="text/javascript" src="/02-Inspector-Clouseau/js/main.js"></script>
+    <script type="text/javascript" src="/Unit03-High-Low-Guessing-Game/main.js"></script>
 </html>

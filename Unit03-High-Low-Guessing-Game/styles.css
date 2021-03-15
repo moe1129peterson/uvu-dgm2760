@@ -1,0 +1,96 @@
+body h1,h2,h3,h4,h6,ul,li,.section {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1366px;
+    min-width: auto;
+    height: 200px;
+    background-image: url(/Unit03-High-Low-Guessing-Game/images/header.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+header h1 {
+    color: #fff;
+    margin: 10px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    font-size: 50px;
+}
+
+header h2 {
+    color: #fff;
+    margin: 10px;
+    text-align: left;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    font-size: 30px;
+}
+
+body {
+   
+}
+
+main {
+   /*margin: 10px 50px 20px;*/
+   margin: auto;
+   width: 72%;
+   height: 100px;
+   padding: 10px;
+    
+}
+
+main h2 {
+    color: #1f1f1a;
+    font-size: 30px;
+}
+
+main h3 {
+    color: #1f1f1a;
+}
+
+li {
+    list-style-type: disc;
+}
+
+button {
+    vertical-align: top;
+}
+
+.section {
+    margin: 200px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    background-color: #cecece;
+}
+
+.element-left {
+    width: 20%;
+}
+
+.element-middle1 {
+    width: 20%;
+}
+
+.element-middle2 {
+    width: 20%;
+}
+
+.element-right {
+    flex-grow: 1;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    height: 30px;
+    width: 1376px;
+    border-style: none;
+    background-color: #1f1f1a;
+}
