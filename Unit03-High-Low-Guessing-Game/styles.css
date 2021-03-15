@@ -64,7 +64,7 @@ button {
     height: 300px;
     display: flex;
     text-align: center;
-    background-color: #cecece;
+    background-color: #cfe7e6;
 }
 
 .element-left {
@@ -92,5 +92,5 @@ footer {
     height: 30px;
     width: 1376px;
     border-style: none;
-    background-color: #1f1f1a;
+    background-color: rgb(24, 168, 173);
 }
