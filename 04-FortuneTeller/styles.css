@@ -8,8 +8,8 @@ header {
     max-width: 1366px;
     min-width: auto;
     height: 200px;
-    background-image: url();
-    background-color: darkslategray;
+    background-image: url(/04-FortuneTeller/images/header.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     
 }
@@ -68,5 +68,5 @@ footer {
     height: 30px;
     width: 1376px;
     border-style: none;
-    background-color: darkslategray;
+    background-color: black;
 }

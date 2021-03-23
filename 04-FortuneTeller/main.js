@@ -61,19 +61,19 @@ function getFortune(fate) {
     let message 
     switch (fate) {
         case 1:
-            message = "random fortune example"
+            message = "get an A on a test."
             break;
         case 2:
-            message = "random fortune example"
+            message = "have many friends."
             break;
         case 3:
-            message = "random fortune example"
+            message = "do a good deed."
             break;
         case 4:
-            message = "random fortune example"
+            message = "go to a party."
             break;
         case 5:
-            message = "random fortune example"
+            message = "have very good luck."
             break;
 
         default:
