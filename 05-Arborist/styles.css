@@ -1,0 +1,101 @@
+body h1, h2, h3, h4, h5, h6, ul, li {margin: 0;}
+
+body {
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(/05-Arborist/images/header.jpg);
+    height: 250px;
+}
+
+header h1 {
+    color: #fff;
+    padding: 1rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 3rem;
+    text-align: center;
+}
+
+header h2 {
+    color: #fff;
+    padding: .5rem 0 0 2%;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main h1 {
+    color: #4e3f0a;
+    padding: 1rem 0 0 2%;
+}
+
+main h2 {
+    color: #2b3921;
+    padding: .6rem 0 0 2%;
+}
+
+main p {
+    padding: .2rem 0 0 2%;
+}
+
+main ul {
+    margin: 0;
+}
+
+main ul.objectives li {
+    list-style-image: url();
+    margin-left: 3%;
+}
+
+main button {
+    display: block;
+    background-color: #eadadb;
+    border: solid 1px #837778;
+    border-radius: 10px;
+    padding: .5em;
+    margin: .5em 0;
+    width: 50%;
+}
+
+main article {
+    float: left;
+    width: 40%;
+}
+
+main div#displayResults {
+    background-color: #d5cab5;
+    margin-left: 2%;
+    padding: .2em 4%;
+    line-height: 150%;
+}
+
+main div#displayResults span {
+    color: rgb(0, 167, 28);
+}
+
+main div#error {
+    color: red; 
+    margin-left: 2%; 
+}
+
+footer {
+    background-color: #2b3921;
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding: .5rem 0;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
