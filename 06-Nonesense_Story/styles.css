@@ -54,17 +54,34 @@ main ul.objectives li {
 
 main button {
     display: block;
-    background-color: #eadadb;
+    background-color: #86b7ca;
     border: solid 1px #837778;
     border-radius: 10px;
     padding: .5em;
     margin: .5em 0;
-    width: 50%;
+    width: 220px;
 }
 
-main article {
-    float: left;
-    width: 40%;
+textarea {
+    resize: none;
+    width: 200px;
+    height: 120px;
+    border: 3px solid;
+    padding: 5px;
+}
+
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child-article {
+    flex: 1;
+    
+}
+
+.flex-child-p {
+    margin-right: 20px;
 }
 
 main div#displayResults {
@@ -78,14 +95,8 @@ main div#displayResults span {
     color: red;
 }
 
-main div#error {
-    color: orange; 
-    margin-left: 2%; 
-    background-color: yellow;
-}
-
 footer {
-    background-color: #9bcde9;
+    background-color: #a4b06a;
     clear: both;
 }
 
