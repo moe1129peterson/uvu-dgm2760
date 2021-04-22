@@ -30,12 +30,12 @@ header h2 {
 }
 
 main h1 {
-    color: #554509;
+    color: #95532b;
     padding: 1rem 0 0 2%;
 }
 
 main h2 {
-    color: #4f7738;
+    color: #95532b;
     padding: .6rem 0 0 2%;
 }
 
@@ -62,16 +62,19 @@ textarea {
 
 main button {
     display: block;
-    background-color: #e0b683;
-    border: solid 1px #837778;
+    color: white;
+    font-size: 24px;
+    background-color: #c3451c;
+    border: none;
     border-radius: 10px;
     padding: .5em;
     margin: .5em 0;
     width: 220px;
+    height: 50px;
 }
 
 footer {
-    background-color: #24681a;
+    background-color: #ffa836;
     clear: both;
 }
 
