@@ -84,7 +84,7 @@ document.querySelector('#lowerTrees').onclick = () => {
 
 document.getElementById('showName3').onclick = () => {
    if (trees.length > 2) {
-       let thirdItem = displayResults.innerHTML.split(' <br>')[2];
+       let thirdItem = trees[2];
         displayResults.innerHTML = thirdItem;
    } else {
        errorElement.textContent = 'Error! There are not enough trees to do that.'
@@ -95,7 +95,7 @@ document.getElementById('showName3').onclick = () => {
 
 document.getElementById('showName4').onclick = () => {
     if (trees.length > 3) {
-        let forthItem = displayResults.innerHTML.split(' <br>')[3];
+        let forthItem = trees[3];
          displayResults.innerHTML = forthItem;
     } else {
         errorElement.textContent = 'Error! There are not enough trees to do that.'
