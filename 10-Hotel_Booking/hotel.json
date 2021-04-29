@@ -1,0 +1,30 @@
+
+{
+    "hotels": [
+        {
+        "name": "AB",
+        "rooms": "21",
+        "gym": "No",
+        "roomTypes": ["King", "Queen", "Double"],
+        "address": "Higashiarako-107 Hanecho, Okazaki",
+        "picture": "room1.jpg"
+        },
+        {
+        "name": "Grand",
+        "rooms": "14",
+        "gym": "No",
+        "roomTypes": ["Queen", "Full", "Twin"],
+        "address": "2 Chome-14番10 Kamimyodaijicho, Okazaki",
+        "picture": "room2.jpg"
+        },
+        {
+        "name": "Trend",
+        "rooms": "19",
+        "gym": "Yes",
+        "roomTypes": ["King", "Double", "Twin"],
+        "address": "Japan, 〒444-0839 Aichi, Okazaki",
+        "picture": "room3.jpg"
+        }
+
+    ]
+}
